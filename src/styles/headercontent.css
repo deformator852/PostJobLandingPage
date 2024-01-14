@@ -1,0 +1,8 @@
+.header-content {
+  display:flex;
+  justify-content: center;
+}
+
+.header-content h2 {
+  font-size:88px;
+}

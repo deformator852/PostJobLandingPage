@@ -1,0 +1,52 @@
+.logo-text {
+  color: #ffffff;
+}
+.navigation {
+  display: flex;
+}
+
+.AI-cover {
+  color: rgba(144, 144, 144, 0.2);
+}
+.nav-item {
+  padding-right: 24px;
+  padding-top: 78px;
+}
+
+.logo {
+  padding-right: 4px;
+}
+.nav-item:last-child {
+  padding-right: 0;
+}
+
+.authorization {
+  display: flex;
+  padding-left: 403px;
+  padding-top: 66px;
+}
+
+.sign-in-button,
+.get-started-button {
+  height: 44px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sign-in-button {
+  width: 119px;
+  color: #ffffff;
+  margin-right: 16px;
+  border: 1px solid #6de754;
+}
+
+.get-started-button {
+  width: 157px;
+  color: #000000;
+  background-color: #6de754;
+}
+
+.logo {
+  padding-top: 76px;
+}
