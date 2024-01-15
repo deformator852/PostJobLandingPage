@@ -19,16 +19,119 @@
   color: #ffffff;
 }
 
-.separator {
+.email-inner {
   display: flex;
-  width: 11px;
-  height: 26px;
-  background-color: #d9d9d9;
-  margin-top: 50px;
-  margin-bottom: 109px;
+  justify-content: center;
+  width: 551px;
 }
 
 .postjob-description {
   line-height: 24px;
   font-weight: 400;
+  padding-top: 40px;
+}
+.start-free {
+  background-color: #6de754;
+  width: 175px;
+  height: 44px;
+  font-size: 16;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1f392c;
+  border-radius: 12px;
+}
+.email {
+  margin-top: 20px;
+  outline: none;
+  width: 567px;
+  height: 60px;
+  background-color: #161815;
+  border: 2px solid #909090;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.email-input::placeholder {
+  font-size: 18px;
+}
+.email-input {
+  background-color: #161815;
+  width: 376px;
+  border: none;
+  color: #909090;
+  outline: none;
+}
+
+.postjob-services {
+  margin-top: 56px;
+  display: flex;
+}
+
+.services-item {
+  margin-right: 32px;
+  background-color: #1e201d;
+  border-radius: 12px;
+  width: 361px;
+  height: 204px;
+}
+
+.services-item:last-child {
+  margin-right: 0px;
+}
+.services-item p {
+  padding-top: 16px;
+  margin-left: 24px;
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+.service-head {
+  color: #ffffff;
+}
+
+.service-image {
+  padding-top: 24px;
+}
+
+.submit-better-job-container {
+  position: relative;
+  margin-top: 100px;
+  width: 1416px;
+  height: 941px;
+  border-radius: 12px;
+  display: flex;
+  color: #000000;
+  background-color:#6DE754 ;
+  justify-content: center;
+}
+
+.softwareUi-image {
+  position: absolute;
+  bottom: 0px;
+  background: linear-gradient(to bottom, transparent, #70c05b),
+    url("../img/softwareUi.png");
+  width:1302px;
+  height:534px;
+}
+
+.submit-better-job-head1 {
+  font-size: 48px;
+  margin-top: 56px;
+  margin-bottom: 90px;
+}
+
+.submit-better-job-head2 {
+  font-size: 152px;
+}
+
+.submit-better-job-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 76px;
 }
