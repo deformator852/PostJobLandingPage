@@ -105,7 +105,7 @@
   border-radius: 12px;
   display: flex;
   color: #000000;
-  background-color:#6DE754 ;
+  background-color: #6de754;
   justify-content: center;
 }
 
@@ -114,8 +114,8 @@
   bottom: 0px;
   background: linear-gradient(to bottom, transparent, #70c05b),
     url("../img/softwareUi.png");
-  width:1302px;
-  height:534px;
+  width: 1302px;
+  height: 534px;
 }
 
 .submit-better-job-head1 {
@@ -134,4 +134,71 @@
   font-size: 16px;
   line-height: 24px;
   margin-top: 76px;
+}
+
+.spend-less-time-content {
+  display: flex;
+}
+
+.create-account-button {
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  border: 1px solid #6de754;
+  border-radius: 12px;
+  width: 212px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.AIOptimize-container {
+  background-color: #6de754;
+  width: 1510px;
+  height: 1080px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.try-free-button {
+  margin-top: 24px;
+  width: 197px;
+  height: 44px;
+  border: 1px solid #161815;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+}
+.AIOPtimize-section-first {
+  display: flex;
+  margin-left: 237px;
+}
+
+.AIOptimize-section-second {
+  display: flex;
+}
+
+.optimize-resume-button {
+  width: 244px;
+  height: 44px;
+  border-radius: 12px;
+  border: 1px solid #161815;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AIOptimize-section-second {
+  margin-left: 253px;
+}
+
+.section-second-image {
+  margin-right: 122px;
 }
