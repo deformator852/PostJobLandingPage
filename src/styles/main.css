@@ -202,3 +202,42 @@
 .section-second-image {
   margin-right: 122px;
 }
+
+.resume-design-header {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  margin-top: 82.5px;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.resume-design-content {
+  display: flex;
+}
+
+.resume-design-description {
+  text-align: left;
+  color: #909090;
+  line-height: 22px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.resume-design-button {
+  width: 212px;
+  height: 44px;
+  border: 1px solid #6de754;
+  border-radius: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}

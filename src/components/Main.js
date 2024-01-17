@@ -9,6 +9,7 @@ import gridIcon from "../img/grid.png";
 import sandboxIcon from "../img/codesandbox.png";
 import sectionFirstImage from "../img/section-first.png";
 import sectionSecondImage from "../img/section-second.png";
+import resumeDesignImage from "../img/resume-design-image.png";
 function Main() {
   return (
     <main className="main">
@@ -263,6 +264,27 @@ function Main() {
               <br /> interviews for the jobs you want.
             </p>
             <div className="optimize-resume-button">Optimize your resume</div>
+          </div>
+        </div>
+      </div>
+      <div className="resume-design-container">
+        <div className="resume-design-content">
+          <div style={{ marginRight: "55px" }}>
+            <p className="resume-design-header">
+              Free resume design <br />
+              <br />
+              <br />
+              templates
+            </p>
+            <p className="resume-design-description">
+              By following these design tips, you can create a<br />{" "}
+              professional and effective resume that will help you stand
+              <br /> out to recruiters and hiring managers.
+            </p>
+            <div className="resume-design-button">Create an account</div>
+          </div>
+          <div>
+            <img style={{ marginTop: "7px" }} src={resumeDesignImage} />
           </div>
         </div>
       </div>
