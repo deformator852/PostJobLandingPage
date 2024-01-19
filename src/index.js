@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
 import "./styles/styles.css";
+import "./styles/adaptive.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 function App() {
@@ -15,6 +16,4 @@ function App() {
     </>
   );
 }
-root.render(
-  <App />,
-);
+root.render(<App />);

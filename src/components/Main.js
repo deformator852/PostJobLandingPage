@@ -89,6 +89,7 @@ function Main() {
       </div>
       <div className="spend-less-time-container">
         <div
+          className="spend-less-time-inner"
           style={{
             display: "flex",
             flexDirection: "column",
@@ -97,21 +98,14 @@ function Main() {
             marginBottom: "32px",
           }}
         >
-          <p
-            style={{
-              fontSize: "48px",
-              color: "#FFFFFF",
-              marginTop: "90px",
-              marginBottom: "20px",
-            }}
-          >
+          <p className="spend-less-time-header">
             Spend less time
             <br />
             <br />
             <br /> looking for work
           </p>
-          <p>We'll help you through the hardest part of</p>
-          <p>your job search</p>
+          <p className="help-you">We'll help you through the hardest part of</p>
+          <p className="job-search">your job search</p>
           <div className="create-account-button">Create an account</div>
         </div>
         <div
@@ -197,10 +191,8 @@ function Main() {
       </div>
       <div className="AIOptimize-container">
         <div className="AIOPtimize-section-first">
-          <div style={{ marginTop: "114px", marginRight: "80px" }}>
-            <p
-              style={{ fontSize: "48px", color: "#000000", textAlign: "left" }}
-            >
+          <div className="optimize-section-first-inner">
+            <p className="section-first-header">
               Free AI cover letter
               <br />
               <br />
@@ -225,7 +217,10 @@ function Main() {
             <div className="try-free-button">Try For Free Now</div>
           </div>
           <div style={{ marginTop: "56px" }}>
-            <img src={sectionFirstImage} />
+            <img
+              className="optimize-section-first-image"
+              src={sectionFirstImage}
+            />
           </div>
         </div>
         <div className="AIOptimize-section-second">

@@ -1,0 +1,156 @@
+@media (max-width: 350px) {
+  #root {
+    max-width: 340px;
+  }
+  .authorization {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 140px;
+  }
+
+  .nav-item {
+    padding-top: 20px;
+  }
+
+  .nav-item:first-child {
+    padding-top: 90px;
+  }
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    position: absolute;
+    width: 280px;
+  }
+
+  .job-container .job-title,
+  .job-container .postjob-title {
+    font-size: 32px;
+    white-space: nowrap;
+  }
+
+  .job-container .postjob-title {
+    padding-top: 30px;
+  }
+
+  .postjob-description {
+    width: 240px;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .email {
+    width: 270px;
+  }
+
+  .email-inner {
+    width: 260px;
+  }
+
+  .start-free {
+    font-size: 16px;
+    margin-left: 15px;
+    padding-right: 0px;
+  }
+
+  .postjob-services .services-item {
+    width: 300px;
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+
+  .postjob-services .services-item p {
+    font-size: 15px;
+  }
+
+  .services-item:last-child {
+    margin-bottom: 0px;
+  }
+  .postjob-services {
+    display: flex;
+    flex-direction: column;
+    height: 590px;
+  }
+
+  .submit-better-job-container {
+    height: 350px;
+  }
+  .submit-better-job-head1 {
+    font-size: 35px;
+    margin-bottom: 45px;
+    margin-top: 40px;
+  }
+
+  .submit-better-job-head2 {
+    font-size: 60px;
+  }
+
+  .submit-better-job-description {
+    margin-top: 60px;
+    width: 300px;
+  }
+
+  .softwareUi-image {
+    display: none;
+  }
+
+  .spend-less-time-header {
+    font-size: 30px;
+    margin-top: 30px;
+    white-space: wrap;
+  }
+
+  .spend-less-time-content div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .spend-less-time-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .spend-less-time-content div {
+    width: 300px;
+    margin-bottom: 30px;
+  }
+
+  .spend-less-time-container {
+    height: 1700px;
+  }
+  .spend-less-time-content .services-item {
+    height: 220px;
+  }
+  .spend-less-time-content .services-item p {
+    font-size: 15px;
+  }
+
+  .optimize-section-first-inner {
+    width: 300px;
+    display: flex;
+  }
+
+  .optimize-section-first-image {
+    width: 250px;
+    height: 250px;
+    margin-right: 90px;
+  }
+
+  .section-first-header {
+    font-size: 32px;
+  }
+  .AIOPtimize-section-first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+  }
+
+  .optimize-section-first-inner {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+  }
+}

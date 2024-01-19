@@ -155,6 +155,17 @@
   margin-top: 16px;
 }
 
+.spend-less-time-header {
+  font-size: 48px;
+  color: #ffffff;
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
+
+.help-you,
+.job-search {
+  font-size: 14px;
+}
 .AIOptimize-container {
   background-color: #6de754;
   width: 1510px;
@@ -201,6 +212,17 @@
 
 .section-second-image {
   margin-right: 122px;
+}
+
+.section-first-header {
+  font-size: 48px;
+  color: #000000;
+  text-align: left;
+}
+
+.optimize-section-first-inner {
+  margin-top: 114px;
+  margin-right: 80px;
 }
 
 .resume-design-header {
